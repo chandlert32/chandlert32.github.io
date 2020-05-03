@@ -1,0 +1,350 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.section-header{
+    padding-bottom: 30px;
+}
+.navbar-brand{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-area{
+    background: #262626;
+}
+.navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item{
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.nav-item:hover {
+    background-color: #2980b9;
+    transition: .5s;
+  }
+/*slider area*/
+
+.slider-area{
+    background-image: url(./Images/banner.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+
+}
+.slider-area:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: liner-gradient(360deg,#000,transparent);
+}
+.slider-text h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.slider-text a{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.slider-text{
+    text-align: center;
+    padding-top: 20%;
+}
+.slider-text a:hover {
+    background-color: #262626;
+    transition: .5s;
+  }
+/*about area*/
+.about-img img{
+    width: 100%;
+}
+.item-text{
+    padding-left: 15px;
+}
+.about-img{
+    padding-right: 15px;
+}
+.item-text h4{
+    margin-bottom: 30px;
+}
+
+/*stats area*/
+.stats-area{
+    background-image: url(https://chandlert32.github.io/Images/stats.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.stats-area:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg,#262626,transparent);
+    z-index: -1;
+}
+.single-stats{
+    color: #fff;
+    text-align: center;
+}
+.single-stats i{
+    margin-bottom: 20px;
+}
+.single-stats h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.single-statsp{
+    font-family: 'Audiowide', cursive;
+}
+
+/*Services Area*/
+.services-area{
+    text-align: center;
+}
+.single-service{
+    border: 1px solid #ddd;
+    padding: 30px 20px;
+    margin-bottom: 15px;
+}
+.single-service h2{
+    margin: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.single-service:hover{
+    background: #262626;
+    color: #fff;
+    transition: .7s;
+}
+
+/*Award Area*/
+.resume-area{
+    position: relative;
+    background-image: url(https://chandlert32.github.io/Images/stats.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    text-align: center;
+}
+.resume-area:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,#000,transparent);
+    z-index: -1;
+}
+.single-resume h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.single-resume a{
+    text-decoration: none;
+    display: inline-block;
+    background: #2980b9;
+    color: #fff;
+    padding: 15px 30px;
+    margin-top: 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+/*Portfolio area*/
+.single-work img{
+    width: 100%;
+}
+.single-work{
+    margin-bottom: 30px;
+}
+.portfolio-area .section-padding{
+    padding-bottom: 30px;
+}
+
+
+/*Footer area*/
+.footer-area{
+    background: #262626;
+    color: #fff;
+    padding: 20px 0;
+    text-align: right;
+}
+
+/*Contact area*/
+.contact-form{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    margin-top: -3%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 90px;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -4%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h6{
+    margin-bottom: 5%;
+    margin-top: -15%;
+    text-align: center;
+    color: #262626;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form h1{
+    margin-bottom: 8%;
+    margin-top: -5%;
+    text-align: center;
+    color: #262626;
+    font-weight: bold;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #262626;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Reponsive CSS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-header h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .navbar-toggler-icon i.fa{
+        color: #fff;
+    }
+    .slider-text{
+        padding-top: 70%;
+    }
+    .about-img{
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .item-text{
+        padding-left: 0;
+    }
+
+.single-stats h2{
+    font-size: 30px;
+}
+.single-stats p{
+    font-size: 14px;
+}
+
+    .single-testi{
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .section-header h2{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .navbar-toggler-icon i.fa{
+        color: #fff;
+    }
+    .slider-text h1{
+        font-size: 22px;
+    }
+    .slider-text{
+        padding-top: 65%;
+    }
+    .slider-text h2{
+        font-style: 20px;
+    }
+    .slider-text a{
+        padding: 5px 10px;
+        font-style: 14px;
+    }
+
+
+    .item-text{
+        margin-top: 30px;
+    }
+    .item-text h4{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .about-img{
+        padding-right: 0;
+    }
+    .item-text{
+        padding-left: 0;
+    }
+
+
+    .single-stats h2{
+        font-size: 30px;
+    }
+
+    .single-award h2{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .single-award a{
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+
+    .single-testi{
+        padding: 15px 10px;
+        margin-bottom: 15px;
+    }
+
+    /*Social Icons*/
+    /* Style all font awesome icons */
+}
